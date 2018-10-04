@@ -9,14 +9,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!--设置程序入口-->
+        <!-- 设置程序入口 -->
         <activity android:name="es.source.code.activity.SCOSEntry">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name="es.source.code.activity.MainScreen"></activity>
     </application>
 
 </manifest>
